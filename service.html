@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Poppins:wght@300&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 5px 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan efek shadow di sini */
+        }
+
+        nav {
+            display: flex;
+            gap: 90px;
+            font-family: 'poppins', 'plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-family: 'poppins',' plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+            font-weight: bold; /* Membuat teks pada navbar menjadi bold */
+            margin-top: 10px;
+        }
+
+        nav a[href="contact.html"] {
+            background-color: white;
+            color: #333;
+            font-size: 16px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 20px;
+            border: 1px solid;
+            border-color: #8BCCC8;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+
+        .home-link {  /*INI GA NGARUH APAPUN? CARANYA */
+            background-color: #8BCCC8;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 500;
+
+        }
+
+        .logo {
+            order: -1; /* Move logo to the left */
+        }
+
+        /* Style section */
+        .tips-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .tip-box {
+            width: 300px;
+            height: 400px;
+            background-color: #f8f8f8;
+            padding: 15px;
+            top: 40px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative; /* Menambahkan posisi relatif */
+        }
+
+        .arrow-icon {
+            position: absolute;
+            bottom: 20px; /* Jarak dari bawah */
+            left: 50%; /* Posisi tengah */
+            transform: translateX(-50%); /* Menengahkan ikon panah */
+            width: 200px; /* Mengatur ukuran ikon panah */
+            height: auto;
+        }
+
+        .tip-box:nth-child(2) {
+            background-color: #8BCCC8;
+            color: white;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center; /* Menengahkan teks secara horizontal */
+            font-family: 'Poppins', sans-serif; /* Mengganti font-family */
+            font-weight: bold;        
+        }
+
+        h3 {
+            margin-top: 20px;
+            text-align: center; /* Menengahkan teks secara horizontal */
+            font-family: 'Plus Jakarta Sans', sans-serif; /* Mengganti font-family */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sentra.png" class="logo" width="200px" height="100px">
+        <nav>
+            <a href="index.html">Home</a>  
+            <a href="index.html">About Me</a>
+            <a href="service.html">Service</a>
+            <a href="hireMe.html">Hire Me</a>
+            <a href="myProject.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <h1>My Awesome Service</h1>
+    <h3>i will help you bring next level for your business</h3>
+    <div class="opsi">
+        <div class="tips-container">
+            <div class="tip-box">
+                <h2>Planning Tips</h2>
+                <p>Wrap up the evening by attending a cultural event or exploring the local nightlife, adding a touch of excitement and diversity to your travel experience.</p>
+                <img src="arrow.png" alt="" class="arrow-icon"> <!-- Menambahkan class untuk styling ikon panah -->
+            </div>
+            <div class="tip-box">
+                <h2>Organizing Tips</h2>
+                <p>Start by researching your destination to identify must-visit attractions, local customs, and any special events. Plan your itinerary accordingly.</p>
+                <img src="arrow.png" alt="" class="arrow-icon"> <!-- Menambahkan class untuk styling ikon panah -->
+            </div>
+            <div class="tip-box">
+                <h2>Select Place Tips</h2>
+                <p>Engage with the local community through social media or travel forums. This can provide valuable tips and authentic recommendations for your trip.</p>
+                <img src="arrow.png" alt="" class="arrow-icon"> <!-- Menambahkan class untuk styling ikon panah -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

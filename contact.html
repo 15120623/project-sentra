@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Poppins:wght@300&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 5px 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan efek shadow di sini */
+        }
+
+        nav {
+            display: flex;
+            gap: 90px;
+            font-family: 'poppins', 'plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-family: 'poppins',' plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+            font-weight: bold; /* Membuat teks pada navbar menjadi bold */
+            margin-top: 10px;
+        }
+
+        nav a[href="contact.html"] {
+            background-color: white;
+            color: #8BCCC8;
+            font-size: 16px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 20px;
+            border: 1px solid;
+            border-color: #8BCCC8;
+            font-weight: 400;
+            margin-top: 0px;
+        }
+
+        .home-link {  /*INI GA NGARUH APAPUN? CARANYA */
+            background-color: #8BCCC8;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 500;
+
+        }
+
+        .logo {
+            order: -1; /* Move logo to the left */
+        }
+
+        .judlul {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .judlul h1 {
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column; /* Change to column layout */
+            align-items: center; /* Center items horizontally */
+            margin-top: 20px;
+        }
+
+        .icon img {
+            margin-bottom: 10px; /* Add margin between icons */
+        }
+
+        .isi {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .isi p {
+            margin-bottom: 5px;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="text"]:focus::placeholder {
+            color: transparent; /* Hide the placeholder text on focus */
+        }
+
+        input[type="text"]::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sentra.png" class="logo" width="200px" height="100px">
+        <nav>
+            <a href="index.html">Home</a>  
+            <a href="index.html">About Me</a>
+            <a href="service.html">Service</a>
+            <a href="hireMe.html">Hire Me</a>
+            <a href="myProject.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="judlul">
+        <h1>Let’s Talk About Ideas</h1>
+        <h1>Contact Me</h1>
+    </div>
+    <div class="icon">
+        <img src="mail.png" alt="">
+        <img src="phone.png" alt="">
+        <img src="link.png" alt="">
+    </div>
+    <div class="isi">
+        <p>Email</p>
+        <p>nr.rara30@gmail.com</p>
+
+        <p>Phone</p>
+        <p>+6281296199451</p>
+
+        <p>Linkedln</p>
+        <p>Naurah Renata</p>
+    </div>
+    <div class="input">
+        <input type="text" name="YourFirstName" id="YourFirstName" placeholder="Your First Name">
+        <input type="text" name="YourLastName" id="YourLastName" placeholder="Your Last Name">
+        <input type="text" name="YourEmail" id="YourEmail" placeholder="Your Email">
+        <input type="text" name="YourMessage" id="YourMessage" placeholder="Your Message">
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Poppins:wght@300&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 5px 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan efek shadow di sini */
+        }
+
+        nav {
+            display: flex;
+            gap: 90px;
+            font-family: 'poppins', 'plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-family: 'poppins',' plus jakarta sans'; /* Tambahkan font-family untuk navbar */
+            font-weight: bold; /* Membuat teks pada navbar menjadi bold */
+            margin-top: 10px;
+        }
+
+        nav a[href="contact.html"] {
+            background-color: white;
+            color: #8BCCC8;
+            font-size: 16px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 20px;
+            border: 1px solid;
+            border-color: #8BCCC8;
+            font-weight: 400;
+            margin-top: 0px;
+        }
+
+        .home-link {  /*INI GA NGARUH APAPUN? CARANYA */
+            background-color: #8BCCC8;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 500;
+
+        }
+
+        .logo {
+            order: -1; /* Move logo to the left */
+        }
+
+        .tips-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .tip-box {
+            width: 323px;
+            height: 433px;
+            background-color: white;
+            border: 1px solid #8bccc8;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sentra.png" class="logo" width="200px" height="100px">
+        <nav>
+            <a href="index.html">Home</a>  
+            <a href="index.html">About Me</a>
+            <a href="service.html">Service</a>
+            <a href="hireMe.html">Hire Me</a>
+            <a href="myProject.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <h1>My Project</h1>
+    <p>I will help you bring next level for your bussiness</p>
+    <div class="tips-container">
+        <div class="tip-box">
+            <img src="Group 4.png" alt="">
+        </div>
+        <div class="tip-box">
+        </div>
+        <div class="tip-box">
+            <img src="Group 5.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>

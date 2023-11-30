@@ -1,0 +1,75 @@
+body{
+    font-family: "popins";
+}
+h1
+h2
+h3
+h4
+h5
+h6{
+    font-family: clash display;
+}
+
+header{
+    display: flex;  /* mengatur layout */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+nav,
+a {
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: black;
+}
+
+header > button,
+.hire {
+    background-color: #8BCCC8;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 500;
+}
+
+.hero > button,
+.downlaod{
+    background-color: #8BCCC8;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    font-weight: 500;
+}
+
+.hero > button,
+.portofolio{
+    background-color: white;
+    color: #8BCCC8;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #8BCCC8;
+    font-weight: 500;
+}
+
+.desc > h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.hero-img{
+    float: right;
+}
+
+.h5 {
+    background-color:#8BCCC8;
+    color: white;
+}
+
